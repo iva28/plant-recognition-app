@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778163792996",
+    "project_id": "plant-dcf53",
+    "storage_bucket": "plant-dcf53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778163792996:android:4c7c000f4547b3bd4c4371",
+        "android_client_info": {
+          "package_name": "com.example.plantrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778163792996-ep4ql4pqv3d9gsiqfbknj8v0qvhl2t5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH8QDqI7uCeciqYQyZKkz8VPF04XCCxbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778163792996-ep4ql4pqv3d9gsiqfbknj8v0qvhl2t5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

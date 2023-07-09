@@ -1,7 +1,6 @@
 package com.example.plantrecognition
 
 import android.Manifest
-import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
@@ -11,25 +10,11 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.graphics.Bitmap
-import android.graphics.Matrix
 import android.graphics.drawable.BitmapDrawable
-import android.graphics.drawable.Drawable
-import android.media.ThumbnailUtils
-import android.net.Uri
-import android.provider.DocumentsContract
-import android.util.Log
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.example.plantrecognition.ml.PlantModel
-import org.tensorflow.lite.DataType
-import org.tensorflow.lite.Interpreter
-import org.tensorflow.lite.support.image.TensorImage
-import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
-import org.tensorflow.lite.support.tensorbuffer.TensorBufferFloat
-import java.nio.ByteBuffer
-import java.nio.ByteOrder
-import java.nio.FloatBuffer
+
 
 
 class MainActivity : ComponentActivity() {
