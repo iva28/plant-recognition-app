@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/button_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_gallery"
+        android:layout_centerInParent="true"
+        android:text="@string/take_picture"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:enabled="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/button_gallery"
+        android:text="@string/gallery"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_200"
+        android:enabled="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350sp"
+        android:layout_height="350sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/round_outline"
+         />
+
+    <TextView
+        android:id="@+id/classified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:text="@string/classify"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/indigo"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:id="@+id/result"
+        android:layout_below="@+id/classified"
+        />
+</RelativeLayout>
