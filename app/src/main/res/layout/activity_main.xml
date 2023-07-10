@@ -43,6 +43,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10sp"
         android:background="@drawable/round_outline"
+        android:src="@drawable/welcome"
          />
 
     <TextView
